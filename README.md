@@ -7,6 +7,7 @@ The `CHATBOT` folder contains a simple chatbot built using Mistral as the LLM ba
 
 ## RAG_WITH_SNOWFLAKE_DOCUMENTATION
 ![image](https://github.com/manjunath-ab/llm_automata/assets/114261603/4d17e41a-8f8d-4595-869a-b8ab8633d4dc)
+
 The `RAG_WITH_SNOWFLAKE_DOCUMENTATION` folder houses a local LLM chatbot designed to provide solutions based on Snowflake documentation. The goal is to create a conversational AI assistant that can answer questions and offer guidance on Snowflake-related topics.
 
 
