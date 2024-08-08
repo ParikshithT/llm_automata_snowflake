@@ -10,8 +10,9 @@ The `CHATBOT` folder contains a simple chatbot built using Mistral as the LLM ba
 
 The `RAG_WITH_SNOWFLAKE_DOCUMENTATION` folder houses a local LLM chatbot designed to provide solutions based on Snowflake documentation. The goal is to create a conversational AI assistant that can answer questions and offer guidance on Snowflake-related topics.
 
+## CORRECTIVE_RAG_WITH_SNOWFLAKE_DOCUMENTATION
 
-Within the `RAG_WITH_SNOWFLAKE_DOCUMENTATION` folder, there is a sub-project called Corrective RAG Chat, which follows an advanced architecture. 
+Within the `RAG_WITH_SNOWFLAKE_DOCUMENTATION` folder, there is a separate project called Corrective RAG Chat, which follows an advanced architecture. 
 
 Corrective-RAG (CRAG) is a Retrieval-Augmented Generation (RAG) strategy that incorporates self-reflection and self-grading on retrieved documents. The approach is outlined in the following steps:
 
@@ -29,7 +30,7 @@ The project will implement some of these ideas from scratch using LangGraph. Ini
 
 
 
-The repository also includes a fully automated planning agent. The core idea behind this agent is to develop a multi-step plan and execute it one step at a time. After completing a particular task, the agent revisits the plan and modifies it as appropriate. This approach contrasts with a typical ReAct style agent that thinks one step at a time.
+The repository also includes a fully automated planning agent currently under development. The core idea behind this agent is to develop a multi-step plan and execute it one step at a time. After completing a particular task, the agent revisits the plan and modifies it as appropriate. This approach contrasts with a typical ReAct style agent that thinks one step at a time.
 
 Advantages of the Plan-and-Execute Style Agent:
 - **Explicit Long-term Planning:** Even strong LLMs can struggle with long-term planning, but this approach facilitates it effectively.
